@@ -1,0 +1,43 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
+
+function AboutCard() {
+  return (
+    <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple">Vivek Chauhan </span>
+            from  Ahmedabad, Gujarat,<span className="purple"> India.</span><br></br>
+            <br />
+            I am currently employed as a software developer at BitBeast company in Ahmedabad.<br></br>
+            <br />
+            I have completed my Bachelor of Computer Applications.
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p>
+          <ul>
+            {/* <li className="about-activity">
+              <ImPointRight /> Playing Games Like GTA 5
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Vlogging
+            </li> */}
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul>
+            <br></br>
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "The future belongs to those who believe in the beauty of their dreams."{" "}
+          </p>
+          <footer className="blockquote-footer">Vivek Chauhan</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
+  );
+}
+
+export default AboutCard;
