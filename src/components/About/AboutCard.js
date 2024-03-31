@@ -31,8 +31,8 @@ function AboutCard() {
           </ul>
             <br></br>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "The future belongs to those who believe in the beauty of their dreams."{" "}
-          </p>
+            "Every family has a person who break the Chain of poverty maybe you are the person believe in yourself ."{" "}
+          </p><br></br>
           <footer className="blockquote-footer">Vivek Chauhan</footer>
         </blockquote>
       </Card.Body>

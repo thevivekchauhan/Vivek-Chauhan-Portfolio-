@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/vc2.png";
+import myImg from "../../Assets/vc2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   // AiFillGithub,
@@ -15,7 +15,6 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <br></br><br></br><br></br><br></br><br></br>
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
