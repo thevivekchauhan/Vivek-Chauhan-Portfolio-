@@ -4,9 +4,10 @@ import myImg from "../../Assets/vc2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   // AiFillGithub,
-  // AiOutlineTwitter,
+  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { FaYoutube  } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -74,25 +75,15 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
               </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/vivekchauhan005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  href="https://www.youtube.com/@theVivekChauhan/videos"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaYoutube />
                 </a>
               </li>
               <li className="social-icons">
@@ -103,6 +94,26 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/vivekchauhan005"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/vivekchauhan005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
                 </a>
               </li>
             </ul>

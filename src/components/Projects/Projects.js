@@ -7,7 +7,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -26,22 +26,22 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="My Portfolio"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
               // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
               demoLink="https://thevivekchauhan.netlify.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Tic-Tic"
+              description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://thevivekchauhan.github.io/self/"
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
