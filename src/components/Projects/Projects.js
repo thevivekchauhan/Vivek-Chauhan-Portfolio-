@@ -5,8 +5,10 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import jewellery from "../../Assets/Projects/jewellery.png"
 import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
+
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,12 +25,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={jewellery}
               isBlog={false}
-              title="My Portfolio"
-              description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
+              title="Jewellery Website"
+              description="Elevate your style with our exquisite jewelry collection, crafted to perfection for every occasion.Indulge in luxury with our stunning jewelry collection, where every piece tells a story of elegance and sophistication.Fashion, jewelry trends evolve over time."
               // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
-              demoLink="https://thevivekchauhan.netlify.app/"
+              demoLink="https://thevivekchauhan.github.io/sonu/"
             />
           </Col>
 
@@ -66,17 +68,27 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            {/* <ProjectCard
-              imgPath={suicide}
+            <ProjectCard
+              imgPath={chatify}
               isBlog={false}
-              title="Ai For Social Good"
+              title="My Portfolio"
+              description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
+              // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
+              demoLink="https://thevivekchauhan.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CarHireXpert}
+              isBlog={false}
+              title="Rent Cars"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            /> */}
+              demoLink="https://thevivekchauhan.github.io/CarHireXpert/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
-            {/* <ProjectCard
+            {/* <ProjectCard  
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"

@@ -7,7 +7,7 @@ import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
-import { FaYoutube} from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 import {
   // AiFillStar,
@@ -100,9 +100,9 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                              <a>< FaYoutube/> Vlogs
-                                </a>  
- 
+                <a>
+                  <FaYoutube />  Vlogs
+                </a>
               </Nav.Link>
             </Nav.Item>
 
