@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import podcast from "../../Assets/Projects/podcast.png";
+import vlog from "../../Assets/Projects/vlog.png";
 import jewellery from "../../Assets/Projects/jewellery.png"
-import chatify from "../../Assets/Projects/chatify.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
+import blog from "../../Assets/Projects/blog.png";
+// import emotion from "../../Assets/Projects/emotion.png";
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -33,32 +33,10 @@ function Projects() {
               demoLink="https://thevivekchauhan.github.io/sonu/"
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Tic-Tic"
-              description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://thevivekchauhan.github.io/self/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="My blog Website"
-              description="A blog website is an online platform where individuals or content creators share video blogs, typically featuring personal experiences, opinions, or activities. Actually, it's my dream to make blog website. I also have a Youtube channel."
-              // ghLink="https://github.com/thevivekchauhan/vlog"
-              demoLink="https://vivekchauhanvlog.netlify.app/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
+              imgPath={podcast}
               isBlog={false}
               title="Podcast"
               description="I create podcasts for various reasons : first is that share valuable insights, second is that building a community or connecting with individuals, third is that it is increase my confidence, forth is that Sharing knowledge and expertise on specific topics.."
@@ -69,7 +47,29 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vlog}
+              isBlog={false}
+              title="My blog Website"
+              description="A blog website is an online platform where individuals or content creators share video blogs, typically featuring personal experiences, opinions, or activities. Actually, it's my dream to make blog website. I also have a Youtube channel."
+              // ghLink="https://github.com/thevivekchauhan/vlog"
+              demoLink="https://vivekchauhanvlog.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Tic-Tic"
+              description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://thevivekchauhan.github.io/self/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
               isBlog={false}
               title="My Portfolio"
               description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
@@ -82,7 +82,7 @@ function Projects() {
               imgPath={CarHireXpert}
               isBlog={false}
               title="Rent Cars"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Welcome to CarHireXpert, your premier destination for hassle-free car rentals. Our platform offers a seamless booking experience. Discover the convenience and reliability of renting with CarHireXpert . Start your journey today and experience the freedom of the open road with us."
               demoLink="https://thevivekchauhan.github.io/CarHireXpert/"
             />
           </Col>
