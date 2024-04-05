@@ -100,10 +100,7 @@ function NavBar() {
                 rel="noreferrer"
               >
                 <a>
-                  <FaYoutube />  Vlogs
-                </a>
-                <a>
-                  <FaYoutube />  Vlogs
+                  <FaYoutube /> vlogs
                 </a>
               </Nav.Link>
             </Nav.Item>
