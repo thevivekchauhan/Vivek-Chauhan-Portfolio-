@@ -93,13 +93,15 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 href="https://www.youtube.com/@theVivekChauhan"
                 target="_blank"
                 rel="noreferrer"
               >
+                <a>
+                  <FaYoutube />  Vlogs
+                </a>
                 <a>
                   <FaYoutube />  Vlogs
                 </a>
