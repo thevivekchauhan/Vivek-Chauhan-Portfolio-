@@ -9,6 +9,7 @@ import Portfolio from "../../Assets/Projects/Portfolio.png";
 import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
 import blog from "../../Assets/Projects/blog.png";
 import GovHub from "../../Assets/Projects/GovHub.png";
+import NewPortfolio from "../../Assets/Projects/Newportfolio.png";
 
 
 function Projects() {
@@ -36,15 +37,17 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={podcast}
+              imgPath={NewPortfolio}
               isBlog={false}
-              title="Podcast"
-              description="I create podcasts for various reasons : first is that share valuable insights, second is that building a community or connecting with individuals, third is that it is increase my confidence, forth is that Sharing knowledge and expertise on specific topics.."
+              title="Portfolio"
+              description= 
+              "I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments "
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://podcasts.apple.com/us/podcast/vivek-chauhan/id1526873795"
+              demoLink="https://thevivekchauhan.github.io/vc/"
             />
           </Col>
 
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vlog}
@@ -55,18 +58,7 @@ function Projects() {
               demoLink="https://vivekchauhanvlog.netlify.app/"              
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blog}
-              isBlog={false}
-              title="Tic-Tic"
-              description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://thevivekchauhan.github.io/future/"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
@@ -77,6 +69,18 @@ function Projects() {
               demoLink="https://thevivekchauhan.netlify.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={podcast}
+              isBlog={false}
+              title="Podcast"
+              description="I create podcasts for various reasons : first is that share valuable insights, second is that building a community or connecting with individuals, third is that it is increase my confidence, forth is that Sharing knowledge and expertise on specific topics.."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://podcasts.apple.com/us/podcast/vivek-chauhan/id1526873795"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CarHireXpert}
@@ -96,6 +100,18 @@ function Projects() {
               demoLink="https://thevivekchauhan.github.io/GovHub/"
             />
           </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Tic-Tic"
+              description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://thevivekchauhan.github.io/future/"
+            />
+          </Col>
+
+
         </Row>
       </Container>
     </Container>
