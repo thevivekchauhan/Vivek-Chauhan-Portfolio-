@@ -4,13 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import podcast from "../../Assets/Projects/podcast.png";
 import vlog from "../../Assets/Projects/vlog.png";
-import jewellery from "../../Assets/Projects/jewellery.png"
+import jewellery from "../../Assets/Projects/jewellery.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
 import blog from "../../Assets/Projects/blog.png";
 import GovHub from "../../Assets/Projects/GovHub.png";
 import NewPortfolio from "../../Assets/Projects/Newportfolio.png";
-
 
 function Projects() {
   return (
@@ -29,36 +28,33 @@ function Projects() {
               imgPath={jewellery}
               isBlog={false}
               title="Jewellery Website"
-              description="Elevate your style with our exquisite jewelry collection, crafted to perfection for every occasion.Indulge in luxury with our stunning jewelry collection, where every piece tells a story of elegance and sophistication.Fashion, jewelry trends evolve over time."
+              description="Welcome to Jewellery Website. It is collection of jewellery, crafted to perfection for every occasion. Indulge in luxury with our stunning jewelry collection, where every piece tells a story of elegance and sophistication. Fashion, jewelry trends evolve over time."
               // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
               demoLink="https://thevivekchauhan.github.io/sonu/"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NewPortfolio}
               isBlog={false}
               title="Portfolio"
-              description= 
-              "I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments "
+              description="I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments "
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://thevivekchauhan.github.io/vc/"
             />
           </Col>
 
-         
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vlog}
+              imgPath={CarHireXpert}
               isBlog={false}
-              title="My blog Website"
-              description="A blog website is an online platform where individuals or content creators share video blogs, typically featuring personal experiences, opinions, or activities. Actually, it's my dream to make blog website. I also have a Youtube channel."
-              // ghLink="https://github.com/thevivekchauhan/vlog"
-              demoLink="https://vivekchauhanvlog.netlify.app/"              
+              title="Rent Cars"
+              description="Welcome to CarHireXpert. Our platform offers a seamless booking experience. Discover the convenience and reliability of renting with CarHireXpert . Start your journey today and experience the freedom of the open road with us."
+              demoLink="https://thevivekchauhan.github.io/CarHireXpert/"
             />
           </Col>
-        
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
@@ -69,7 +65,15 @@ function Projects() {
               demoLink="https://thevivekchauhan.netlify.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GovHub}
+              isBlog={false}
+              title="Find government job"
+              description="The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels, including local, state, and federal."
+              demoLink="https://thevivekchauhan.github.io/GovHub/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={podcast}
@@ -83,24 +87,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CarHireXpert}
+              imgPath={vlog}
               isBlog={false}
-              title="Rent Cars"
-              description="Welcome to CarHireXpert, your premier destination for hassle-free car rentals. Our platform offers a seamless booking experience. Discover the convenience and reliability of renting with CarHireXpert . Start your journey today and experience the freedom of the open road with us."
-              demoLink="https://thevivekchauhan.github.io/CarHireXpert/"
+              title="My blog Website"
+              description="A blog website is an online platform where individuals or content creators share video blogs, typically featuring personal experiences, opinions, or activities. Actually, it's my dream to make blog website. I also have a Youtube channel."
+              // ghLink="https://github.com/thevivekchauhan/vlog"
+              demoLink="https://vivekchauhanvlog.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
-            <ProjectCard  
-              imgPath={GovHub}
-              isBlog={false}
-              title="Find government job"
-              description="The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels, including local, state, and federal."
-              demoLink="https://thevivekchauhan.github.io/GovHub/"
-            />
-          </Col>
-            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
@@ -110,8 +105,6 @@ function Projects() {
               demoLink="https://thevivekchauhan.github.io/future/"
             />
           </Col>
-
-
         </Row>
       </Container>
     </Container>
