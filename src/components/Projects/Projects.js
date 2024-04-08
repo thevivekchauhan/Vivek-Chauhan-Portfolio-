@@ -63,7 +63,7 @@ function Projects() {
               title="Tic-Tic"
               description="I made this website because it is remind me Vivek you can't waste your time to chasing butterfly and other distraction. My parents have faith in me that I will come forward by doing good work in the world, so I should not be distracted by anything keeping that in mind."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://thevivekchauhan.github.io/self/"
+              demoLink="https://thevivekchauhan.github.io/future/"
             />
           </Col>
 
