@@ -6,8 +6,8 @@ import podcast from "../../Assets/Projects/podcast.png";
 import vlog from "../../Assets/Projects/vlog.png";
 import jewellery from "../../Assets/Projects/jewellery.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
-import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
-import blog from "../../Assets/Projects/blog.png";
+// import CarHireXpert from "../../Assets/Projects/CarHireXpert.png";
+// import blog from "../../Assets/Projects/blog.png";
 import GovHub from "../../Assets/Projects/GovHub.png";
 import NewPortfolio from "../../Assets/Projects/Newportfolio.png";
 
@@ -23,16 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={jewellery}
-              isBlog={false}
-              title="Jewellery Website"
-              description="Welcome to Jewellery Website. It is collection of jewellery, crafted to perfection for every occasion. Indulge in luxury with our stunning jewelry collection, where every piece tells a story of elegance and sophistication. Fashion, jewelry trends evolve over time."
-              // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
-              demoLink="https://thevivekchauhan.github.io/sonu/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -45,7 +36,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CarHireXpert}
               isBlog={false}
@@ -53,18 +44,9 @@ function Projects() {
               description="Welcome to CarHireXpert. Our platform offers a seamless booking experience. Discover the convenience and reliability of renting with CarHireXpert . Start your journey today and experience the freedom of the open road with us."
               demoLink="https://thevivekchauhan.github.io/CarHireXpert/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Portfolio}
-              isBlog={false}
-              title="My Portfolio"
-              description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
-              // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
-              demoLink="https://thevivekchauhan.netlify.app/"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GovHub}
@@ -95,7 +77,29 @@ function Projects() {
               demoLink="https://vivekchauhanvlog.netlify.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jewellery}
+              isBlog={false}
+              title="Jewellery Website"
+              description="Welcome to Jewellery Website. It is collection of jewellery, crafted to perfection for every occasion. Indulge in luxury with our stunning jewelry collection, where every piece tells a story of elegance and sophistication. Fashion, jewelry trends evolve over time."
+              // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
+              demoLink="https://thevivekchauhan.github.io/sonu/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={false}
+              title="My Portfolio"
+              description="I created my portfolio to showcase my skills, experience, and projects to potential employers and clients, providing them with a comprehensive overview of my capabilities and achievements in a visually appealing manner. That's why I make this beautiful website."
+              // ghLink="https://github.com/thevivekchauhan/Vivek-Chauhan-Portfolio-"
+              demoLink="https://thevivekchauhan.netlify.app/"
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
@@ -104,7 +108,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://thevivekchauhan.github.io/future/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left,   #00539CFF,black );
+}
+html {
+  --section-background-color: linear-gradient(to bottom left, rgba(17, 16, 16, 0.582), rgba(12, 8, 24, 0.904));
+  --image-gradient: linear-gradient(to bottom left, #00539CFF,black);
+  --imp-text-color: #c770f0;
+}
